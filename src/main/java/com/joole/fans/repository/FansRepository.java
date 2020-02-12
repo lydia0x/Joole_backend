@@ -8,7 +8,6 @@ import java.util.List;
 
 @Repository
 public interface FansRepository extends JpaRepository<Fans, Integer> {
-//    List<Fans> findAll();
     Fans findByid(int id);
 
 }
